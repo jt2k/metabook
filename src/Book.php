@@ -11,7 +11,7 @@ use DateTime;
 class Book
 {
     private string $isbn;
-    private StoreInterface $cache;
+    private ?StoreInterface $cache;
     /** @var AbstractDataSource[] */
     private array $dataSources = [];
 
